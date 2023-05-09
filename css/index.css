@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border: 2px;
+    border-radius: 3px;
+}
+
+.nav-item{
+    border: 1px;
+    min-width: 80px;
+    text-align: center;
+    padding: 0.2em 0;
+
+}
+
+.nav-item nav-center{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+section#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-form{
+    display: flex;
+    justify-content:space-between;
+    padding:1em 5em 1em 3em;
+}
+
+.element{
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.circle {
+    max-width: 1.2em;
+    border-radius: 50% 0;
+    text-align: center;
+    background: rgb(219, 210, 210);
+    padding: 0.2em;
+
+}
+
+.form{
+    background: rgb(216, 216, 216);
+    border-radius: 10%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+button.btn{
+    margin-top: 0.2em;
+    padding: 1em;
+    border-radius:10% ;
+    background: rgb(125, 244, 166);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
